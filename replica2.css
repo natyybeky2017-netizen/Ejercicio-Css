@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 780px;
+    padding: 12px 20px 25px;
+}
+
+h1 {
+    margin: 0 0 30px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    color: #101a2f;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+    row-gap: 20px;
+}
+
+.colors div {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+/* Primera columna */
+.cool-gray {
+    color: #4b5563;
+}
+
+.cyan {
+    color: #17657d;
+}
+
+.sky {
+    color: #0879b8;
+}
+
+.fuchsia {
+    color: #a51da9;
+}
+
+.purple {
+    color: #6529a4;
+}
+
+/* Segunda columna */
+.warm-gray {
+    color: #77736f;
+}
+
+.red {
+    color: #e52b2f;
+}
+
+.orange {
+    color: #ed5b16;
+}
+
+.pink {
+    color: #c21f68;
+}
+
+.violet {
+    color: #4e2c98;
+}
+
+/* Tercera columna */
+.amber {
+    color: #b95c09;
+}
+
+.yellow {
+    color: #f39a00;
+}
+
+.lime {
+    color: #568a24;
+}
+
+.rose {
+    color: #f04467;
+}
+
+.indigo {
+    color: #303d8b;
+}
+
+/* Cuarta columna */
+.green {
+    color: #14613b;
+}
+
+.emerald {
+    color: #09634d;
+}
+
+.teal {
+    color: #155f5d;
+}
+
+.blue-gray {
+    color: #263246;
+}
+
+.blue {
+    color: #174f9c;
+}

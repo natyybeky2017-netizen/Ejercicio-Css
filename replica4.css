@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hwb(228 91% 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cuadro {
+    width: 170px;
+    height: 180px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 9px;
+    padding: 4px;
+}
+
+/* Los colores van cambiando de arriba hacia abajo */
+
+.color {
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+/* primera fila */
+.color:nth-child(1) { background: #7774ef; }
+.color:nth-child(2) { background: #9179ed; }
+.color:nth-child(3) { background: #ad76ed; }
+.color:nth-child(4) { background: #d866e6; }
+.color:nth-child(5) { background: #ed64a0; }
+.color:nth-child(6) { background: #f26680; }
+
+/* segunda fila */
+.color:nth-child(7) { background: #5962e5; }
+.color:nth-child(8) { background: #8257e8; }
+.color:nth-child(9) { background: #a64ee7; }
+.color:nth-child(10) { background: #cf45db; }
+.color:nth-child(11) { background: #e43c83; }
+.color:nth-child(12) { background: #ef385d; }
+
+/* tercera fila */
+.color:nth-child(13) { background: #4652d9; }
+.color:nth-child(14) { background: #7541df; }
+.color:nth-child(15) { background: #9b31d7; }
+.color:nth-child(16) { background: #bd2dc9; }
+.color:nth-child(17) { background: #d62972; }
+.color:nth-child(18) { background: #df2347; }
+
+/* cuarta fila */
+.color:nth-child(19) { background: #3c45c3; }
+.color:nth-child(20) { background: #6834c9; }
+.color:nth-child(21) { background: #8724bc; }
+.color:nth-child(22) { background: #a521ad; }
+.color:nth-child(23) { background: #bd1d5c; }
+.color:nth-child(24) { background: #c9193c; }
+
+/* quinta fila */
+.color:nth-child(25) { background: #30399f; }
+.color:nth-child(26) { background: #5528aa; }
+.color:nth-child(27) { background: #70209e; }
+.color:nth-child(28) { background: #8d1d91; }
+.color:nth-child(29) { background: #a51650; }
+.color:nth-child(30) { background: #b81437; }
+
+/* sexta fila */
+.color:nth-child(31) { background: #292f80; }
+.color:nth-child(32) { background: #47218d; }
+.color:nth-child(33) { background: #5f1b80; }
+.color:nth-child(34) { background: #741875; }
+.color:nth-child(35) { background: #8e1445; }
+.color:nth-child(36) { background: #9d1230; }

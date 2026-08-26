@@ -1,0 +1,20 @@
+/* Marco que contiene cada sección */
+.seccion-lenguaje {
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+}
+
+/* Alinea la imagen y el texto uno al lado del otro */
+.contenido {
+    display: flex;             /* Hace que los elementos se pongan de lado */
+    align-items: flex-start;   /* Alinea arriba */
+    gap: 20px;                 /* Separa la imagen del texto */
+    background-color: #d8dee3; /* Fondo gris claro detrás del texto e imagen */
+    padding: 15px;
+}
+
+/* Tamaño de las imágenes */
+.imagen-logo {
+    width: 140px;              /* Ajusta el ancho de las logos */
+    height: auto;
+}
